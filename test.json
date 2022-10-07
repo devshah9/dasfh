@@ -1,0 +1,17 @@
+{
+    "$id": "dob.json",    
+    "title": "dob",
+    "type": "object",
+    "properties": {
+        "dob": {
+            "description": "The month day and year when person was born.",
+            "names": ["dob","DOB","DateOfBirthDate","DateOfBirthFinalValue","DateOfBirthSIS","dateofbirth"],
+            "preferred_name": "dob",
+            "type": ["string", "null"],
+            "format": "date",
+            "minLength":  0,
+            "maxLength":  10,
+            "pattern": "(\\d\\d\\d\\d-\\d\\d-\\d\\d)|(None)"
+        }
+    }
+} 
